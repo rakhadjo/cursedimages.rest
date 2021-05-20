@@ -1,6 +1,9 @@
 # secret file ;)
 links.json
 
+# .vscode settings
+.vscode
+
 # Logs
 logs
 *.log
