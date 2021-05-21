@@ -21,5 +21,11 @@ To return the `JSON` response of the following:
 }
 ```
 
+### Quickstart
+
+1. fork & clone repository
+2. `npm install`
+3. run the project by calling `node app.js`
+
 ### Legal
 MIT License
