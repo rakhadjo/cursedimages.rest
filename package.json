@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "test": "jest --detectOpenHandles && exit 1"
+    "test": "jest && exit 1"
   },
   "repository": {
     "type": "git",
