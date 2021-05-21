@@ -13,3 +13,8 @@ describe("GET", () => {
     request(app).get("/").expect(200, done);
   });
 });
+
+afterAll(done => {
+    app.close()
+    done()
+})
