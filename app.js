@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
   res.render("index", { inp: src });
 });
 
-app.get("/json", (req, res) => {
+app.get("/api", (req, res) => {
   const src = images[Math.floor(Math.random() * images.length)];
   res.json({ image: src });
 });
