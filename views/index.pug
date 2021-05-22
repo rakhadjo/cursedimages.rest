@@ -1,16 +1,11 @@
 doctype html
 html
-  head
-    style
-      include style.css
-    link(
-      rel="stylesheet" 
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css")
-    script
-      include script.js
-    title= "are you nuts"
+  include includes/head.pug
   body
-    h1(align="center") Cursed Images Display
+    h1(
+      align="center"
+      font-family="monospace"
+      ) cursedimages.rest
     br
     button(
       class="vertical-center"
@@ -23,3 +18,5 @@ html
       class="center"
       class="container"
       )
+    br
+  include includes/footer.pug
