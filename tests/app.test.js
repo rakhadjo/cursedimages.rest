@@ -2,9 +2,9 @@ const { expect, afterAll } = require("@jest/globals");
 const request = require("supertest");
 const app = require("../app");
 
-describe("GET /JSON", () => {
+describe("GET /api", () => {
   it("should return json format", (done) => {
-    request(app).get("/json").expect(200, done);
+    request(app).get("/api").expect(200, done);
   });
 });
 
