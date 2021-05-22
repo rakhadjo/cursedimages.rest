@@ -3,16 +3,23 @@ html
   head
     style
       include style.css
+    link(
+      rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css")
     script
       include script.js
     title= "are you nuts"
   body
+    h1(align="center") Cursed Images Display
+    br
     button(
+      class="vertical-center"
       onclick='refresh()'
-      class="center"
       ) Refresh
+    br
     -var img = inp
     img(
       src=img
       class="center"
+      class="container"
       )
