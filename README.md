@@ -1,5 +1,14 @@
 # cursedimages.rest
 
+<p align="center">
+  
+![Build](https://github.com/rakhadjo/cursedimages.rest/actions/workflows/node.js.yml/badge.svg)
+![License](https://img.shields.io/github/license/rakhadjo/cursedimages.rest.svg)
+![Issues](https://img.shields.io/github/issues/rakhadjo/cursedimages.rest.svg)
+![Stars](https://img.shields.io/github/stars/rakhadjo/cursedimages.rest.svg)
+![Forks](https://img.shields.io/github/forks/rakhadjo/cursedimages.rest.svg)
+
+</p>
 Images API for the eternally damned. Also provides a REST Interface
 
 Simpler version of the OG [cursed images API](github.com/rakhadjo/cursed_images_api) (now archived) that runs on ExpressJS (originally Spring)
